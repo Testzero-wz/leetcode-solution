@@ -4,10 +4,10 @@ The `Perfermance` is unstable most of time, it depends on leetcode benchmark ser
 
 
 ***
-**Progress:** 95/3171
+**Progress:** 100/3171
 |Easy|Medium|Hard|
 |--|--|--|
-|50|39|6|
+|51|43|6|
 
 |ID|Question|Solution|Performance|
 |---|---|---|---|
@@ -34,6 +34,7 @@ The `Perfermance` is unstable most of time, it depends on leetcode benchmark ser
 |58|[\[E\] length-of-last-word](https://leetcode.com/problems/length-of-last-word/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/58.length-of-last-word.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 86.97% (7.6 MB)|
 |61|[\[M\] rotate-list](https://leetcode.com/problems/rotate-list/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/61.rotate-list.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 68.32% (15.1 MB)|
 |62|[\[M\] unique-paths](https://leetcode.com/problems/unique-paths/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/62.unique-paths.cpp)|runtime beats 42.08% (2 ms)<br>memory beats 99.29% (7 MB)|
+|64|[\[M\] minimum-path-sum](https://leetcode.com/problems/minimum-path-sum/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/64.minimum-path-sum.cpp)|runtime beats 94.81% (3 ms)<br>memory beats 98.77% (11.9 MB)|
 |66|[\[E\] plus-one](https://leetcode.com/problems/plus-one/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/66.plus-one.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 54.42% (10.2 MB)|
 |67|[\[E\] add-binary](https://leetcode.com/problems/add-binary/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/67.add-binary.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 36.92% (8.8 MB)|
 |70|[\[E\] climbing-stairs](https://leetcode.com/problems/climbing-stairs/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/70.climbing-stairs.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 86.13% (7 MB)|
@@ -44,8 +45,11 @@ The `Perfermance` is unstable most of time, it depends on leetcode benchmark ser
 |88|[\[E\] merge-sorted-array](https://leetcode.com/problems/merge-sorted-array/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/88.merge-sorted-array.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 94.89% (10.9 MB)|
 |93|[\[M\] restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/93.restore-ip-addresses.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 82.05% (9.4 MB)|
 |94|[\[E\] binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/94.binary-tree-inorder-traversal.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 40.42% (9.8 MB)|
+|98|[\[M\] validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/98.validate-binary-search-tree.cpp)|runtime beats 55.90% (8 ms)<br>memory beats 15.32% (20.3 MB)|
 |100|[\[E\] same-tree](https://leetcode.com/problems/same-tree/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/100.same-tree.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 79.67% (11.7 MB)|
+|104|[\[E\] maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/104.maximum-depth-of-binary-tree.cpp)|runtime beats 40.65% (8 ms)<br>memory beats 80.12% (17.4 MB)|
 |112|[\[E\] path-sum](https://leetcode.com/problems/path-sum/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/112.path-sum.cpp)|runtime beats 70.72% (7 ms)<br>memory beats 86.88% (19.6 MB)|
+|113|[\[M\] path-sum-ii](https://leetcode.com/problems/path-sum-ii/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/113.path-sum-ii.cpp)|runtime beats 90.14% (4 ms)<br>memory beats 60.72% (18.8 MB)|
 |114|[\[M\] flatten-binary-tree-to-linked-list](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/114.flatten-binary-tree-to-linked-list.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 86.91% (15.6 MB)|
 |120|[\[M\] triangle](https://leetcode.com/problems/triangle/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/120.triangle.cpp)|runtime beats 84.31% (3 ms)<br>memory beats 99.74% (10.8 MB)|
 |121|[\[E\] best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/121.best-time-to-buy-and-sell-stock.cpp)|runtime beats 86.92% (77 ms)<br>memory beats 93.73% (95.7 MB)|
@@ -56,6 +60,7 @@ The `Perfermance` is unstable most of time, it depends on leetcode benchmark ser
 |144|[\[E\] binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/144.binary-tree-preorder-traversal.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 48.02% (9.8 MB)|
 |145|[\[E\] binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/145.binary-tree-postorder-traversal.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 97.90% (9.7 MB)|
 |146|[\[M\] lru-cache](https://leetcode.com/problems/lru-cache/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/146.lru-cache.cpp)|runtime beats 37.75% (364 ms)<br>memory beats 72.99% (168.8 MB)|
+|148|[\[M\] sort-list](https://leetcode.com/problems/sort-list/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/148.sort-list.cpp)|runtime beats 29.03% (144 ms)<br>memory beats 47.38% (73.3 MB)|
 |151|[\[M\] reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/151.reverse-words-in-a-string.cpp)|runtime beats 100.00% (0 ms)<br>memory beats 77.98% (8.5 MB)|
 |165|[\[M\] compare-version-numbers](https://leetcode.com/problems/compare-version-numbers/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/165.compare-version-numbers.py)|runtime beats 70.39% (33 ms)<br>memory beats 99.93% (16.3 MB)|
 |169|[\[E\] majority-element](https://leetcode.com/problems/majority-element/description)|[Link](https://github.com/Testzero-wz/leetcode-solution/blob/master/code/169.majority-element.cpp)|runtime beats 89.42% (12 ms)<br>memory beats 90.90% (26.5 MB)|
