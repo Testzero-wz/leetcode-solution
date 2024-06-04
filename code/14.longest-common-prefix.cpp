@@ -17,21 +17,17 @@ public:
         while (1)
         {
             char c = -1;
-            for (auto str : strs)
+            for (auto &str : strs)
             {
                 if (idx >= str.length())
-                {
                     return str;
-                }
                 if (c == -1)
                 {
                     c = str[idx];
                     continue;
                 }
                 if (c != str[idx])
-                {
                     return str.substr(0, idx);
-                }
             }
             idx++;
         }

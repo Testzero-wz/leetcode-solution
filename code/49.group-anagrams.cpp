@@ -5,7 +5,7 @@
  */
 #include <vector>
 #include <string>
-#include <map>
+#include <unordered_map>
 using namespace std;
 // @lc code=start
 class Solution
@@ -13,41 +13,36 @@ class Solution
 public:
     vector<vector<string>> groupAnagrams(vector<string> &strs)
     {
-        map<string, vector<string>> m;
-        int table[26];
-        for (auto s : strs)
+        unordered_map<string, int> map;
+        vector<vector<string>> res;
+        // vector<int> groups;
+        char table[26];
+        int group_id = -1;
+        for (auto &s : strs)
         {
             for (int i = 0; i < 26; i++)
-            {
                 table[i] = 0;
-            }
             string key = get_count_string(s, table);
-            if (m.find(key) == m.end())
-                m[key] = vector<string>();
-            m[key].push_back(s);
-        }
-        vector<vector<string>> res;
-        for (auto it = m.begin(); it != m.end(); it++)
-        {
-            res.push_back(it->second);
+            int cur_gid;
+            if (map.find(key) == map.end())
+            {
+                group_id++;
+                res.emplace_back(vector<string>());
+                map[key] = group_id;
+                cur_gid = group_id;
+            }
+            else
+                cur_gid = map[key];
+            res[cur_gid].emplace_back(s);
         }
         return res;
     }
 
-    string get_count_string(string &s, int table[26])
+    string get_count_string(string &s, char table[26])
     {
         for (auto c : s)
-        {
             table[c - 'a']++;
-        }
-        char num_str[80];
-        string res = "";
-        for (int i = 0; i < 26; i++)
-        {
-            sprintf(num_str, "%d|", table[i]);
-            res += num_str;
-        }
-        return res;
+        return string(table, table + 26);
     }
 };
 // @lc code=end

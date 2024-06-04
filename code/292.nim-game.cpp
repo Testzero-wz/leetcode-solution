@@ -10,7 +10,7 @@ class Solution
 public:
     bool canWinNim(int n)
     {
-        return n % 4 != 0;
+        return n & 3;
     }
 };
 // @lc code=end
