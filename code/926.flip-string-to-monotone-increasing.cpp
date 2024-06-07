@@ -12,7 +12,17 @@ class Solution
 public:
     int minFlipsMonoIncr(string s)
     {
-       
+        int last_0 = 0;
+        int last_1 = 0;
+        bool flip_to_0;
+        for (auto &c : s)
+        {
+            flip_to_0 = c == '1';
+            last_1 = min(last_0, last_1);
+            last_1 += !flip_to_0;
+            last_0 += flip_to_0;
+        }
+        return min(last_0, last_1);
     }
 };
 // @lc code=end

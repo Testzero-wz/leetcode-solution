@@ -16,21 +16,20 @@ public:
     {
         if (spaces.size() == 0)
             return s;
-        stringstream ss;
+        string ss(s.length() + spaces.size(), ' ');
         int p = 0;
-        int cur_space_idx = spaces[p];
+        int sp = spaces[p];
+        int end = 0;
         for (int i = 0; i < s.size(); i++)
         {
-            if (i == cur_space_idx)
+            if (i == sp)
             {
-                ss << ' ';
-                cur_space_idx = ++p < spaces.size() ? spaces[p] : -1;
+                end++;
+                sp = ++p < spaces.size() ? spaces[p] : -1;
             }
-            ss << s[i];
+            ss[end++] = s[i];
         }
-        if (spaces.back() == s.size())
-            ss << " ";
-        return ss.str();
+        return ss;
     }
 };
 // @lc code=end
